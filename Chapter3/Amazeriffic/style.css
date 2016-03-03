@@ -1,52 +1,112 @@
 body {
   background: #f9e933;
+  width: 90em;
+  height: 60em;
+  padding-left: 12em;
+  padding-right: 12em;
 }
 
 header, main, footer {
-  min-width: 855px;
+  min-width: 98%;
+  padding-left: 1%;
+  padding-right: 1%;
+
 }
 
-header .container, main .container, footer .container {
-  max-width: 855px;
+header.container, main.container, footer.container {
+  max-width: 98%;
   margin: auto;
 }
 
 header {
+  min-height: 15%;
   background: white;
   overflow: auto;
+  padding-top: 1%;
 }
 
 header h1 {
   float: left;
-  width: 570px;
+  width: 70%;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 header nav {
   float: right;
-  width: 285px;
+  width: 28%;
+  font-size: 1em;
+  text-align: right;
+  padding-top: 1%;
+}
+
+nav a{
+  text-decoration: none;
 }
 
 main {
   background: white;
   overflow: auto;
+  width: 98%;
+  min-height: 65%;
+}
+
+ h2{
+  font-size: 1.5em;
+  padding-bottom: 1.5%;
 }
 
 main .left {
   float: left;
-  width: 570px;
+  width: 50%;
+  text-align: justify;
 }
 
 main .right {
   float: right;
-  width: 285px;
+  width: 30%;
 }
 
+main form{
+  width: 100%;
+  margin: auto;
+}
+
+main input {
+    /* in order to define widths */
+    text-align: center;
+
+}
+main label{
+  display: inline-block;
+  width: 15%;
+}
+
+footer{
+  height: 20%;
+  padding-top: 1%;
+}
 footer .left {
   float: left;
-  width: 570px;
+  width: 85%;
+  text-align: right;
+}
+h5{
+  font-weight: bold;
+  padding-bottom: 1.0%;
+}
+p {
+  padding-bottom: 0.5%;
+}
+main p{
+  padding-bottom: 2%;
+}
+main h2{
+  font-weight: bolder;
 }
 
 footer .sitemap {
   float: right;
-  width: 285px;
+  width: 10%;
+  text-align: left;
 }
